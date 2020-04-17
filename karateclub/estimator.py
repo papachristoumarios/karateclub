@@ -40,13 +40,13 @@ class Estimator(object):
 
     def _check_connectivity(self, graph):
         """Checking the connected nature of a single graph."""
-        try:
-            connected = nx.is_connected(graph)
-            if not connected:
-                raise ValueError("Graph is not connected. Please see requirements.")
-        except:
-            exit("Graph is not connected. Please see requirements.")
-
+#         try:
+#             connected = nx.is_connected(graph)
+#             if not connected:
+#                 raise ValueError("Graph is not connected. Please see requirements.")
+#         except:
+#             exit("Graph is not connected. Please see requirements.")
+        pass
 
     def _check_directedness(self, graph):
         """Checking the undirected nature of a single graph."""
